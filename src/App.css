@@ -1,38 +1,71 @@
-.App {
+.bg-container{
+  width: 90%;
+  margin: auto;
+}
+.bg-container h1{
+  margin:auto;
   text-align: center;
+  padding-top: 2rem;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-header h1{
+  color: darkmagenta;
+  font-size: 1.5rem;
+  margin: .5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pdf-view-container{
+  border: 1px solid lightgrey;
+  margin: 1rem;
+  padding: 2rem;
+  background: lightgray;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-btn{
+  border-radius: 5px;
+  background-color: darkmagenta;
+  padding: .5rem 2rem;
+  border: none;
+  color:white;
+}
+.search-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+.file-input{
+  background-color: rgb(215, 221, 226);
+  width: 100%;
+  padding: .2rem;
+  border-radius: 5px;
+}
+.search-input{
+  background: lightgrey;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+  list-style-type: none;
+  background: white;
+  color:darkgray;
+}
+.search-history-container {
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-history-container.active {
+  display: block;
+}
+.bottom-text{
+  color:black;
+  font-size: 1rem;
+  font-weight: 500;
 }
