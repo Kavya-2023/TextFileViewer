@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextFileViewer/static/css/main.42b3b852.css",
+    "main.js": "/TextFileViewer/static/js/main.052bc108.js",
+    "static/js/453.add62590.chunk.js": "/TextFileViewer/static/js/453.add62590.chunk.js",
+    "index.html": "/TextFileViewer/index.html",
+    "main.42b3b852.css.map": "/TextFileViewer/static/css/main.42b3b852.css.map",
+    "main.052bc108.js.map": "/TextFileViewer/static/js/main.052bc108.js.map",
+    "453.add62590.chunk.js.map": "/TextFileViewer/static/js/453.add62590.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b3b852.css",
+    "static/js/main.052bc108.js"
+  ]
+}
